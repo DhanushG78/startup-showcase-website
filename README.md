@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Startup Showcase
 
-## Getting Started
+Startup Showcase is a premium, high-performance web application designed to discover and explore innovative startups. Powered by **Contentstack CMS** and built with **Next.js 16**, it features a real-time data connection, dynamic content rendering, and a state-of-the-art dark-themed UI.
 
-First, run the development server:
+## ✨ Features
+
+- **Headless CMS Integration:** Real-time data fetching from Contentstack.
+- **Dynamic Routes:** Individual product detail pages for every startup.
+- **Premium UI/UX:** A sleek, modern dark theme with glassmorphism and fluid animations.
+- **Advanced Filtering:** Instant category-based filtering and search functionality.
+- **Responsive Design:** Optimized for all devices, from mobile to ultra-wide displays.
+- **Loading States:** Shimmer skeletons for a seamless perceived performance.
+- **SEO Optimized:** Dynamic metadata generation for every product page.
+
+## 🛠️ Technology Stack
+
+- **Framework:** Next.js 16 (App Router)
+- **Styling:** Tailwind CSS / Vanilla CSS Variables
+- **CMS:** Contentstack (Headless)
+- **Deployment:** Contentstack Launch
+- **Typography:** Inter & Space Grotesk (Google Fonts)
+
+## 🚀 Live Demo
+
+The project is live and deployed on **Contentstack Launch**:
+👉 **[Live Link](https://startup-showcase.contentstackapp.com)** *(Placeholder Link)*
+
+## ⚙️ Development Setup
+
+### Prerequisites
+
+- Node.js 18.x or later
+- npm or yarn
+- Contentstack API Credentials
+
+### Environment Variables
+
+Create a `.env.local` file in the root directory and add your Contentstack credentials:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+CONTENTSTACK_API_KEY=your_api_key
+CONTENTSTACK_DELIVERY_TOKEN=your_delivery_token
+CONTENTSTACK_ENVIRONMENT=your_environment
 ```
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/startup-showcase.git
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `app/`: Next.js 16 App Router pages and layouts.
+- `app/components/`: Reusable Client and Server UI components.
+- `app/product/[uid]/`: Dynamic product detail page routes.
+- `lib/`: Data fetching utilities and Contentstack configuration.
+- `public/`: Static assets like icons and images.
 
-## Learn More
+## 📄 License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License.
