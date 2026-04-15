@@ -23,7 +23,7 @@ Startup Showcase is a premium, high-performance web application designed to disc
 ## 🚀 Live Demo
 
 The project is live and deployed on **Contentstack Launch**:
-👉 **[Live Link](https://startup-showcase.contentstackapp.com)** *(Placeholder Link)*
+👉 **https://startup-showcase-website.contentstackapps.com/** *(Placeholder Link)*
 
 ## ⚙️ Development Setup
 
